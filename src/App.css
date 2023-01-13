@@ -1,0 +1,122 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 25px gray;
+  background: white;
+}
+
+input{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+  outline: 0;
+}
+
+.car{
+  width: 15%;
+}
+
+.cabeca {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 90%;
+}
+
+.valorebotao{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  min-width: 30%;
+}
+
+.valortotal {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  color: white;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background: darkred;
+  padding:0 30px;
+  height: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 100%;
+  
+}
+
+button:hover{
+  color: darkred;
+  background: white;
+}
+
+.botaolimpa{
+  width: 80%;
+}
+
+.botaoadd{
+  width: 70%;
+}
+
+main{
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cardsind {
+  height: 100%;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 25px gray;
+  font-weight: bold
+
+  
+}
+
+.imagens {
+  border-radius: 100px;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+  transition: 0.5s;
+}
+
+@media (max-width:
+1024px)
+{
+  .cards
+   {
+   flex-wrap: wrap;
+   }
+}
+
+footer{
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 200px;
+  
+}
